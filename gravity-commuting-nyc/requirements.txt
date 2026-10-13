@@ -1,0 +1,14 @@
+# Python 3.10+. Versions are not pinned: these are the packages the notebooks import.
+jupyter
+pandas
+numpy
+matplotlib
+scipy
+statsmodels
+linearmodels
+binsreg
+stargazer
+requests
+geopandas
+folium
+plotly

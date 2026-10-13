@@ -1,0 +1,28 @@
+\begin{table}[!htbp] \centering
+  \caption{Regression Results}
+\begin{tabular}{@{\extracolsep{5pt}}lccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{3}{c}{\textit{Dependent variable: log_commuters}} \
+\cr \cline{2-4}
+\\[-1.8ex] & \multicolumn{1}{c}{Model 1} & \multicolumn{1}{c}{Model 2} & \multicolumn{1}{c}{Model 3}  \\
+\\[-1.8ex] & (1) & (2) & (3) \\
+\hline \\[-1.8ex]
+ log_traveltime_public & -0.411$^{***}$ & -0.454$^{***}$ & -1.037$^{***}$ \\
+& (0.002) & (0.002) & (0.004) \\
+ log_traveltime_car & & & 0.605$^{***}$ \\
+& & & (0.004) \\
+ home_tract FE & No & Yes & Yes \\
+ work_tract FE & No & Yes & Yes \\
+\hline \\[-1.8ex]
+ Observations & 687482 & 687482 & 687482 \\
+ N. of groups & 2110 & 2110 & 2110 \\
+ $R^2$ & 0.068 & 0.068 & 0.106 \\
+ Residual Std. Error & 0.234 & 0.231 & 0.288 \\
+ F Statistic & 50112.854$^{***}$ & 50054.182$^{***}$ & 40602.709$^{***}$ \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\multicolumn{4}{r}\textit{Standard errors are in parentheses.} \\
+\end{tabular}
+\end{table}

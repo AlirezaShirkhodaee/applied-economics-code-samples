@@ -1,0 +1,6 @@
+# Python 3.10+. Versions are not pinned: these are the packages the notebooks import.
+jupyter
+edsl
+pandas
+numpy
+matplotlib
